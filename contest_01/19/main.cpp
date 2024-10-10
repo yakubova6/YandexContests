@@ -7,7 +7,7 @@ int main()
 {
   std::string word;
 	std::map<std::string, int> word_count;
-	while (std::cin >> word)
+	while (std::cin >> word && word != "end")
 	{
 		word_count[word]++;
 	}
